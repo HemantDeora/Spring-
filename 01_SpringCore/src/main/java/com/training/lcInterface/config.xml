@@ -6,7 +6,7 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
        
-       <bean class="com.training.lcInterface.Samosa" id="samosa" init-method="init" destroy-method="destroy">
+       <bean class="com.training.lcXml.Samosa" id="samosa" init-method="init" destroy-method="destroy">
        
        <property name="price"  value="20"/>
        

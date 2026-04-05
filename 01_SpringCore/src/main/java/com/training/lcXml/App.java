@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {
 	public static void main(String[] args) {
-	AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/training/lcXml/config.xml");
+	AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/training/lcInterface/config.xml");
 	Samosa s = (Samosa) context.getBean("samosa");
 	
 	System.out.println(s);
