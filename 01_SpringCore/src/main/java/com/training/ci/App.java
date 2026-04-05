@@ -7,11 +7,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("com/logic/ci/config.xml");
-
-		Person p = (Person) context.getBean("p1");
-
-		System.out.println(p);
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/training/ci/Config.xml");
+		Person p1 = (Person) context.getBean("person1");
+		System.out.println(p1);
 
 		
 		
