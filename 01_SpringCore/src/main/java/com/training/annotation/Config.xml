@@ -13,9 +13,13 @@
     <!-- Enable annotation processing -->
     <context:annotation-config />
 
-    <bean class="com.training.annotation.Address" name="address">
+    <bean class="com.training.annotation.Address" name="address1">
         <property name="street" value="xyz"/>
         <property name="city" value="mumbai"/>
+    </bean>
+    <bean class="com.training.annotation.Address" name="address2">
+        <property name="street" value="xyz"/>
+        <property name="city" value="delhi"/>
     </bean>
 
     <bean class="com.training.annotation.Emp" name="emp"/>
